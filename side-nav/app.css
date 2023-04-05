@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+.nav-container {
+    position: fixed;
+    width: 230px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    text-align: center;
+    background-color: transparent;
+}
+
+.avatar img {
+    padding: 5px 0;
+    width: 120px;
+    border-radius: 50%;;
+}
+
+h1 .lastname {
+    color: #c1121f;
+}
+
+.navbar .links {
+    margin-top: 50px;
+}
+
+.navbar .links li {
+    padding: 5px 0;
+}
+
+.navbar .links a:hover {
+    color: #c1121f;
+}
